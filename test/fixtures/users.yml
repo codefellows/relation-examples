@@ -1,0 +1,14 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: David
+  location: Issaquah
+  email: d@dker.com
+  phone: 1234567890
+
+two:
+  name: Amanda
+  location: Kirkland
+  email: a@mandakom.com
+  phone: 0987654321

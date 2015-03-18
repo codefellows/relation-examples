@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @dvd.title %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @dvd.genre %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @dvd.year %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @dvd.rating %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dvd.description %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @dvd.user %>
+</p>
+
+<%= link_to 'Edit', edit_user_dvd_path(@user, @dvd) %> |

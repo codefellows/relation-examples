@@ -1,0 +1,50 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+frozen:
+  title: Frozen
+  genre: Family
+  year: 2013
+  rating: G
+  description: A wicked ice queen tries to freeze all of Arendale
+  user: two
+
+mibii:
+  title: MIBII
+  genre: Space alien action comedy
+  year: 2002
+  rating: PG-13
+  description: "When the invasion comes Will Smith kicks ass."
+  user: two
+
+matrix:
+  title: The Matrix
+  genre: Sappy romantic comedy
+  year: 1999
+  rating: R
+  description: Super powers help you get the girl
+  user: two
+
+ghostbusters:
+  title: Ghostbusters
+  genre: Scifi and slime
+  year: 1984
+  rating: PG
+  description: Slimer tries to make good. Who you gonna call?
+  user: two
+
+furious6:
+  title: Fast and Furious 6
+  genre: action
+  year: 2013
+  rating: PG-13
+  description: Gangsters race cars
+  user: one
+
+daddy: 
+  title: Daddy Day Care
+  genre: action
+  year: 2003
+  rating: PG
+  description: Eddie Murphy kicks kids butts into shape
+  user: one
