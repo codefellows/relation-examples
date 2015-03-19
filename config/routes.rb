@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :actors
+
   resources :dvds, only: [:show, :index]
 
   resources :users do

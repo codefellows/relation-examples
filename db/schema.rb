@@ -11,7 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150317182718) do
+ActiveRecord::Schema.define(version: 20150318182934) do
+
+  create_table "actors", force: :cascade do |t|
+    t.string   "name"
+    t.string   "yob"
+    t.string   "awards"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "actors_dvds", id: false, force: :cascade do |t|
+    t.integer "actor_id", null: false
+    t.integer "dvd_id",   null: false
+  end
+
+  add_index "actors_dvds", ["actor_id", "dvd_id"], name: "index_actors_dvds_on_actor_id_and_dvd_id"
 
   create_table "dvds", force: :cascade do |t|
     t.string   "title"

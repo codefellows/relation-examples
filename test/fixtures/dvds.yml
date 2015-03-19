@@ -9,6 +9,15 @@ frozen:
   description: A wicked ice queen tries to freeze all of Arendale
   user: two
 
+mib:
+  title: MIB
+  genre: Documentary
+  year: 1997
+  rating: PG-13
+  description: "The world is saved. Again."
+  user: two
+  actors: will, tom
+
 mibii:
   title: MIBII
   genre: Space alien action comedy
@@ -16,6 +25,7 @@ mibii:
   rating: PG-13
   description: "When the invasion comes Will Smith kicks ass."
   user: two
+  actors: will, tom
 
 matrix:
   title: The Matrix

@@ -30,4 +30,13 @@
   <%= @dvd.user %>
 </p>
 
-<%= link_to 'Edit', edit_user_dvd_path(@user, @dvd) %> |
+<p>
+  Actors:
+  <ul>
+    <% @dvd.actors.each do |actor| %>
+      <li id="<%= dom_id actor %>" class="actor"><%= link_to actor.name, actor %></li>
+    <% end %>
+  </ul>
+</p>
+
+<%= link_to 'Edit', edit_user_dvd_path(@dvd.user, @dvd) %> |

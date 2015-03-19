@@ -1,0 +1,14 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+will:
+  name: William Smith
+  yob: 1968
+  awards: All of them
+  dvds: mib, mibii
+
+tom:
+  name: Tommy Lee Jones
+  yob: 1946
+  awards: Golden Globe
+  dvds: mib, mibii
