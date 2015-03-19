@@ -16,3 +16,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'minitest-rails-capybara'
 end
+
+group :test do
+  gem 'codeclimate-test-reporter', require: nil
+end
